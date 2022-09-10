@@ -14,9 +14,35 @@
   }
 }
 
+.col-md-5{
+  width: 100% !important;
+}
+
 .blog-header {
   border-bottom: 1px solid #e5e5e5;
 }
+
+.back-big-1, .back-big-2{
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+  text-shadow: 5px 5px 30px #000;
+}
+
+.back-big-1{
+  background-image: url(./img/19krugmanWeb-videoSixteenByNineJumbo1600.jpeg)  !important;
+  
+}
+
+.back-big-2{
+  background-image: url(./img/RM_Arsenale_31-Zheng-Bo_6041.webp) !important;
+}
+
+img{
+  object-fit: cover;
+}
+
+
 
 .blog-header-logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;

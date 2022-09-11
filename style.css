@@ -22,7 +22,7 @@
   border-bottom: 1px solid #e5e5e5;
 }
 
-.back-big-1, .back-big-2{
+.back-big-1, .back-big-2, .back-big-3, .back-big-4{
   background-position: center;
   background-size: cover;
   min-height: 400px;
@@ -31,18 +31,23 @@
 
 .back-big-1{
   background-image: url(./img/19krugmanWeb-videoSixteenByNineJumbo1600.jpeg)  !important;
-  
 }
 
 .back-big-2{
   background-image: url(./img/RM_Arsenale_31-Zheng-Bo_6041.webp) !important;
 }
 
+.back-big-3{
+  background-image: url(./img/5c448fe62bdd7f18ce693af2.webp) !important;
+}
+
+.back-big-4{
+  background-image: url(./img/chino-rocha-v8pTbZ88OXI-unsplash.jpeg) !important;
+}
+
 img{
   object-fit: cover;
 }
-
-
 
 .blog-header-logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;

@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Thor Times</title>
@@ -13,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
 
     <link href="./style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
 
   </head>
   <body>
@@ -48,15 +50,19 @@
           </div>
         </div>
       </div>
+
+      <!-- title -->
       <div class="col text-center">
         <a class="blog-header-logo text-dark" href="#">Thor Times</a>
       </div>
+
+      <!-- login -->
       <div class="col d-flex justify-content-end align-items-center nav-button-big-scren">
         <a class="link-secondary" href="#" aria-label="Search">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
         </a>
         <!-- signup section -->
-        <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" href="./login.html">Login</a>
+        <a class="btn btn-dark" href="./login.html">Login</a>
       </div>
     </div>
     
@@ -91,9 +97,6 @@
         <span>Stay connected</span>
       </div>
       <div class="d-inline">
-        <a class="link-secondary" href="#" aria-label="Search">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
-        </a>
         <!-- signup section -->
         <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" href="./login.html">Login</a>
       </div>
@@ -121,17 +124,57 @@
 <!-- main -->
 <main class="container">
 
-  <!-- big card 1 -->
-  <div class="p-4 p-md-5 mb-4 rounded text-bg-dark back-big-1 d-flex justify-content-between  flex-column">
-    <div class="col-md-6 px-0">
-      <h1 class="display-4 fst-italic">Trump speaking things about Twitter</h1>
-      <p class="lead my-3">The two sides had diverging views of who could serve as an independent arbiter to sift through the files seized from former President Trump’s home.</p>
-      <p class="lead mb-0"><a href="blog.html" class="text-white fw-bold">Continue reading...</a></p>
+  <!-- carrousel big cards -->
+  <div  class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- first item carrousel -->
+      <div class="carousel-item active">
+
+        <div class="p-4 p-md-5 mb-4 rounded text-bg-dark back-big-1 d-flex justify-content-between flex-column">
+          <div class="col-md-6 px-0">
+            <h1 class="display-4 fst-italic">Trump speaking things about Twitter</h1>
+            <p class="lead my-3">The two sides had diverging views of who could serve as an independent arbiter to sift through the files seized from former President Trump’s home.</p>
+            <p class="lead mb-0"><a href="blog.html" class="text-white fw-bold">Continue reading...</a></p>
+          </div>
+        </div>
+     
+      </div>
+
+      <!-- second item carrousel -->
+      <div class="carousel-item">
+
+        <div class="p-4 p-md-5 mb-4 rounded text-bg-dark back-big-3 d-flex justify-content-center flex-column">
+          <div class="col-md-6 px-0">
+            <h1 class="display-4 fst-italic">Billy McFarland Is Out of Jail and Ready</h1>
+            <p class="lead my-3">Five years after the Fyre Festival, the convicted fraudster is planning a comeback.</p>
+            <p class="lead mb-0"><a href="blog.html" class="text-white fw-bold">Continue reading...</a></p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- third item carrousel -->
+      <div class="carousel-item">
+      
+        <div class="p-4 p-md-5 mb-4 rounded text-bg-dark back-big-4 d-flex justify-content-between flex-column align-items-end">
+
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 fst-italic">Iga Swiatek Downs Ons Jabeur to Win U.S.</h1>
+          <p class="lead my-3">Swiatek, the world No. 1, beat Jabeur in straight sets to capture her first U.S.</p>
+          <p class="lead mb-0"><a href="blog.html" class="text-white fw-bold">Continue reading...</a></p>
+        </div>
+        </div>
+
+
+      </div>
     </div>
   </div>
 
   <!-- smalls pairs of cards 1 -->
   <div class="row mb-2">
+
+    <!-- card 1 -->
     <div class="col-md-6">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
@@ -146,6 +189,8 @@
         </div>
       </div>
     </div>
+
+    <!-- card 2 -->
     <div class="col-md-6">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
@@ -153,7 +198,7 @@
           <h3 class="mb-0">Coup champion</h3>
           <div class="mb-1 text-muted">Nov 11</div>
           <p class="mb-auto">Also in this edition: Christine Baranski’s throwback flair.</p>
-          <a href="#" class="stretched-link">Continue reading</a>
+          <a href="blog.html" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
           <img width="200" height="250" class="bd-placeholder-img" src="./img/tamc-091022-nfl-roundtable-threeByTwoSmallAt2X.webp">
@@ -164,6 +209,8 @@
 
   <!-- smalls cards 1 -->
   <div class="row d-flex p-0 m-0 gap-4 justify-content-between">
+
+    <!-- card 1 -->
     <div class="col-lg col-md-5 card mb-4 p-0">
       <img src="./img/10Dowd-threeByTwoMediumAt2X-v4.webp" class="card-img-top" alt="...">
       <div class="card-body">
@@ -174,6 +221,8 @@
         <a href="blog.html" class="stretched-link">Continue reading</a>
       </div>
     </div>
+
+    <!-- card 2 -->
     <div class="col-lg col-md-5 card mb-4 p-0">
       <img src="./img/10queen-elizabeth-carousel-9-threeByTwoMediumAt2X.webp" class="card-img-top" alt="...">
       <div class="card-body">
@@ -184,6 +233,8 @@
         <a href="blog.html" class="stretched-link">Continue reading</a>
       </div>
     </div>
+
+    <!-- card 3 -->
     <div class="col-lg col-md-5 card mb-4 p-0">
       <img src="./img/11NEWSEASON-1776-PROMO-threeByTwoMediumAt2X.webp" class="card-img-top" alt="...">
       <div class="card-body">
@@ -198,6 +249,8 @@
 
   <!-- smalls cards 2 -->
   <div class="row d-flex p-0 m-0 gap-4 justify-content-between">
+
+    <!-- card 1 -->
     <div class="col-lg col-md-5 card mb-4 p-0">
       <img src="./img/11WENNER-COVER-threeByTwoMediumAt2X-v2.webp" class="card-img-top" alt="...">
       <div class="card-body">
@@ -208,6 +261,8 @@
         <a href="blog.html" class="stretched-link">Continue reading</a>
       </div>
     </div>
+
+    <!-- card 2 -->
     <div class="col-lg col-md-5 card mb-4 p-0">
       <img src="./img/08Well-NL-Misophonia-threeByTwoSmallAt2X.webp">
       <div class="card-body">
@@ -218,6 +273,8 @@
         <a href="blog.html" class="stretched-link">Continue reading</a>
       </div>
     </div>
+
+    <!-- card 2 -->
     <div class="col-lg col-md-5 card mb-4 p-0">
       <img src="./img/09dc-jan6-photo-threeByTwoSmallAt2X.webp" class="card-img-top" alt="...">
       <div class="card-body">
@@ -241,6 +298,8 @@
 
   <!-- smalls pairs of cards 2 -->
   <div class="row mb-2">
+
+    <!-- card 1 -->
     <div class="col-md-6">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col-auto d-none d-lg-block">
@@ -255,6 +314,8 @@
         </div>
       </div>
     </div>
+
+    <!-- card 2 -->
     <div class="col-md-6">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col-auto d-none d-lg-block">
@@ -277,6 +338,8 @@
 <div class="container border-top pt-4">
   <footer class="row">
     <div class="row d-flex justify-content-between">
+
+      <!-- topics -->
       <div class="col-6 col-md-2 mb-3">
         <h5>Topics</h5>
         <ul class="nav flex-column">
@@ -286,10 +349,10 @@
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Opinion</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Design</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Style</a></li>
-
         </ul>
       </div>
 
+      <!-- sections -->
       <div class="col-6 col-md-2 mb-3">
         <h5>Sections</h5>
         <ul class="nav flex-column">
@@ -302,6 +365,7 @@
         </ul>
       </div>
 
+      <!-- more info -->
       <div class="col-6 col-md-2 mb-3">
         <h5>More info</h5>
         <ul class="nav flex-column">
@@ -313,6 +377,7 @@
         </ul>
       </div>
 
+      <!-- subscribe -->
       <div class="col-md-4 offset-md-0 mb-1 ">
         <form>
           <h5>Subscribe to our newsletter</h5>
@@ -327,6 +392,7 @@
       </div>
     </div>
 
+    <!-- copy -->
     <div class="d-flex flex-column flex-sm-row justify-content-between py-4 border-top">
       <p>&copy; 2022 Thor Times, Inc. All rights reserved. Made by <a href="https://joaquinmetayer.com/">Joaquin Metayer</a></p>
       <ul class="list-unstyled d-flex">

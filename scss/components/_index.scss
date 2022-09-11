@@ -5,7 +5,7 @@
   .back-big-1, .back-big-2, .back-big-3, .back-big-4{
     background-position: center;
     background-size: cover;
-    min-height: 400px;
+    height: 400px !important;
     text-shadow: 5px 5px 30px #000;
   }
   

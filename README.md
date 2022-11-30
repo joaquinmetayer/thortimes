@@ -3,7 +3,7 @@
 Page based in a Magazine using HTML, CSS and SASS.
 
 Full responsive.
-Include seccions: Home, Login and Post blog.
+Include sections: Home, Login and Post blog.
 
 Live view on https://thortimes.netlify.app/
 
